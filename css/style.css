@@ -1,0 +1,158 @@
+
+h2{
+	font-family:arial, serif ; font-style:italic; font-weight:lighter; color:blue;
+}
+a{
+	text-decoration:none;
+	color:bisque;
+} 
+h1{
+	font-family: verdana,sans serif;	
+ color:white;
+
+
+}
+h2{
+	font-family: 'open sans', sans-serif;
+	font-size: 1.5em;
+	color:burlywood;
+	width:400px;
+	height:;
+	text-align: center;
+	margin:auto;
+}
+h3{
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+h3:before {
+	content: "« "; /* on affiche une chaîne de caractère */
+	color:grey;
+}
+h3:after{
+	content:" »";
+	color: grey;
+}
+}
+p{
+	text-align: justify;
+}
+
+ul{
+	padding: 0;
+	display: inline;
+}
+nav{
+	text-align:center; 
+	background: rgb(22, 22, 63);
+	font-size: 1.1em;
+	box-shadow: 0px 3px 1px -1px rgba(0 , 0 ,0 , 0.5);
+	padding:15px;
+}
+li{
+	list-style-type: none;
+	display: inline;
+	margin:10px;
+}
+li:hover{
+	font-weight: bold;
+}
+#logo{
+	width: 50px;
+	margin:30px;
+ 	
+}
+
+body{
+	font-family: verdana, serif;
+	background-color:#f4f7f6;
+}
+
+h1:hover{ 
+	color: pink;
+}
+header{
+	text-align: center;
+	background-color: #1d1d1d;
+	text-decoration: blue;
+	padding: 30px 0px 30px 0px;
+}	
+	
+section{
+	text-align: center;
+	margin: 50px;
+}
+footer{
+	background-color: #1d1d1d;
+	color:white;
+	text-align: center;
+	padding: 15px;
+		border:1px black solid;
+	border-radius:15px ;
+	padding:30px;
+	margin: 0px 0px 50px;
+}
+/*les id */
+ 
+#contact{
+	border: 1px black solid;
+	border-radius: 15px;
+	padding: 30px;
+	margin: 0px 0px 50px;
+}  
+#projets{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+#picture-projet img{
+				 width:80%;
+}
+/*les classes*/
+
+.separtor{
+	width: 40%;
+	height: 1px;
+	margin:15px auto;
+	background-color: #999999;
+	display: block;
+
+}
+.contenner{
+	width: 80%;
+	 margin:auto;
+}
+.projet{
+		width: 400px;
+		margin:30px;
+		display: inline-block;
+		background-color: white;
+		padding-bottom: 15px;
+		border:0px black solid; /*pour cree le cadre*/
+		border-radius: 10px; /*pour arrondir*/
+		overflow: hidden; /*pour cacher*/
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.projet:hover{
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		transition: 0.3s;
+}
+.projet img{
+	min-width: 400px; /*Aumoins 400%*/
+2	height: 266px; /*HAUTEUR*/ 
+}
+.picture{
+	width: 400px;
+	height: 266px;
+	overflow: hidden;
+	margin: 0px 0px 15px;
+}
+.projet .date-project{
+	font-size: 0.7em;
+}
+.projet span{
+	text-transform: uppercase;
+	display: block;
+}
+
